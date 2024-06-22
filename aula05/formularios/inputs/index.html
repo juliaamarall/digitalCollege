@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUT</title>
+</head>
+<body>
+    <h1>lista de inputs</h1>
+    <hr>
+
+    <div>
+        <label for="nome">Nome</label> 
+        <input type="text" name="nome" id="nome" maxlength="5" minlength="2">
+    </div>
+<br>
+    <div>
+    <label for="senha">Senha</label>
+    <input type="password" id="senha" name="senha" required>
+    </div>
+<br>
+<div>
+    <label for="cor">Cor</label>
+    <input type="color" id="cor" name="cor">
+</div>
+<br>
+<div>
+    <label for="data">Data</label>
+    <input type="datetime" id="data" name="data">
+</div>
+<br>
+<div>
+    <label for="data">Data</label>
+    <input type="date" id="data" name="data">
+</div>
+<br>
+<div>
+    <label for="data">Data</label>
+    <input type="datetime-local" id="data" name="data">
+</div>
+<br>
+<div>
+  
+    <input type="radio" id="roma" name="radio">
+    <label for="roma">Romance</label>
+
+    <input type="radio" id="terror" name="radio">
+    <label for="terror">Terror</label>
+</div>
+
+<div>
+    
+    <input type="checkbox" name="checkbox" id="filme">
+    <label for="filme">Filme</label>
+
+    <input type="checkbox" name="checkbox" id="serie">
+    <label for="serie">Série</label>
+</div>
+<br>
+<div>
+    <label for="Arquivo">Selecione seu Arquivo</label>
+    <input type="file" id="arquivo" name="arquivo">
+</div>
+<br>
+<div>
+    <label for="barra">Brilho</label>
+    <input type="range" id="barra" name="barra">
+</div>
+
+<div>
+    <fieldset>
+        <legend>INPUTS RADIO</legend>
+        <!-- PARA QUE O RADIO TENHA O COMPORTAMENTO DE SELECIONAR APENAS UMA OPÇÃO É NECESSARIO QUE O NAME DOS INPUTS SEJAM IGUAIS -->
+        <input type="radio" id="radio1" name="radio">
+        <label for="radio1">Radio 1</label>
+
+        <input type="radio" id="radio2" name="radio">
+        <label for="radio2"> Radio 2</label>
+
+        <input type="radio" id="radio3" name="radio">
+        <label for="radio3"> Radio 3</label>
+    </fieldset>
+</div>
+
+<div>
+    <label for="text">Digite sua opinião</label>
+    <br>
+    <textarea name="text" id="" cols="50" rows="20"></textarea>
+</div>
+
+<div>
+    <select name="select" id="select">
+        <option value="op -1">op-1</option>
+        <option value="op -2">op-2</option>
+        <option value="op -3">op-3</option>
+        <option value="op -4">op-4</option>
+        <option value="op -5">op-5</option>
+    </select>
+</div>
+<br>
+<div>
+    <label for="browser">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser">
+    
+    <datalist id="browsers">
+      <option value="Edge">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+</div>
+
+
+</body>
+</html>

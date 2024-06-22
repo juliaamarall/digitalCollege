@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário via EMAIL</h1>
+    <hr>
+    <form action="https://api-send-email-m9xz.onrender.com/juliaamaraldev@gmail.com" method="post">
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="name" placeholder="Digite seu nome..">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email..">
+        </div>
+        <br>
+        <div>
+            <!-- <fieldset>
+                <legend>ASSUNTO</legend> -->
+                <!-- PARA QUE O RADIO TENHA O COMPORTAMENTO DE SELECIONAR APENAS UMA OPÇÃO É NECESSARIO QUE O NAME DOS INPUTS SEJAM IGUAIS -->
+                <!-- <input type="radio" id="01" name="subject" value="ASSUNTO 1">
+                <label for="01">ASSUNTO 01</label>
+        
+                <input type="radio" id="02" name="subject">
+                <label for="02"> ASSUNTO 02</label>
+        
+                <input type="radio" id="03" name="subject">
+                <label for="03"> ASSUNTO 03</label>
+            </fieldset> -->
+
+            <select name="subject" id="select">
+                <option value="terror">TERROR</option>
+                <option value="romance">ROMANCE</option>
+                <option value="suspense">SUSPENSE</option>
+                <option value="dorama">DORAMA</option>
+                <option value="acao">AÇÃO</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="message">Mensagem</label><br>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="INSIRA SUA MENSAGEM AQUI!"></textarea>
+        </div>
+<br>
+        <div>
+            
+            <button type="reset">APAGAR TUDO</button>
+            <button>
+                ENVIAR MENSAGEM
+            </button>
+        </div>
+    </form>
+</body>
+</html>
