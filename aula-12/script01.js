@@ -69,6 +69,18 @@ if(num1 % 2 === 0){
     console.log(`Seu número é IMPAR e o valor somado com 8 é ${impar}`)
 }
 
+// QUESTÃO 08
+
+const num1 = Number(prompt("Digite o PRIMEIRO NÚMERO: "));
+const num2 = Number(prompt("Digite o SEGUNDO NÚMERO: "));
+const num3 = Number(prompt("Digite o TERCEIRO NÚMERO: "));
+
+const maior = Math.max(num1,num2,num3);
+const menor = Math.min(num1,num2,num3);
+const meio = (num1 + num2 + num3) - maior - menor;
+
+console.log(maior, meio, menor)
+
 // QUESTÃO 9
 const sexo = prompt("digite seu sexo: ");
 const altura = Number(prompt("digite sua altura: "));
