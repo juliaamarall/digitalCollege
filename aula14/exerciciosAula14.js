@@ -96,3 +96,10 @@ for(const letra of letras){
 }
 
 console.log(contador)
+
+//  questão 09
+
+const palavra = prompt('Digite uma palavra: ');
+const letras = palavra.split("")
+
+console.log(letras.reverse())
