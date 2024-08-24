@@ -58,3 +58,41 @@ for(let i = numero; i >= 1; i--){
     fatorial *= i
 }
 console.log(fatorial)
+
+// FOR TESTE
+const frutas = [ "maça", "banana", "uva", "goiaba", "pera", "jambo"]
+const numeros = [12, 3, 20, 7, 32, 1]
+const pessoas= [
+    {
+        nome: 'Julia',
+        cargo: 'desenvolvedora',
+        idade: 26
+    }]
+    
+for(const fruta of frutas){
+    console.log(frutas)
+}
+    
+
+// QUESTÃO 07
+const cores = ['branco', 'azul', 'vermelho', 'rosa'];
+
+for(let cor of cores){
+    console.log(cor)
+}
+
+
+// questão 08
+const palavra = prompt('Digite uma palavra: ');
+const letras = palavra.split("")
+let contador = 0
+const vogais = ['A', 'E', 'I', 'O', 'U']
+
+for(const letra of letras){
+        if(vogais.includes(letra)){
+            contador++
+        }
+        
+}
+
+console.log(contador)
