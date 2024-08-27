@@ -58,6 +58,19 @@ if(num1 > 0){
     console.log(`O triplo do número negativo é ${triplo}`)
 }
 
+// QUESTÃO 6
+
+const valor1 = prompt("Digite 'true' ou 'false': ")
+const valor2 = prompt("Digite 'true' ou 'false': ")
+
+if (valor1 === "true" && valor2 === "true") {
+    console.log("Ambos são VERDADEIROS");
+} else if (valor1 === "false" && valor2 === "false") {
+    console.log("Ambos são FALSOS");
+} else {
+    console.log("Um é VERDADEIRO e o outro é FALSO");
+}
+
 // QUESTÃO 7
 const num1 = Number(prompt("Digite um número: "));
 
