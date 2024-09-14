@@ -59,3 +59,12 @@ nome.forEach((nome) => console.log(nome))
 const nomes = ['julia','camila','margot']
 
 for ( const nome of nomes) console.log(nome)
+
+
+    //questão 07
+
+    const precos = [100,200,300,400,500]
+    const precosDescontados = precos.map((valor) => valor * 0.9)
+    const precosFiltrados = precosDescontados.filter((valor) => valor < 350)
+    
+    console.log(precosFiltrados)
