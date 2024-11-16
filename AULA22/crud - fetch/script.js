@@ -28,7 +28,7 @@ async function openModal(id) {
     modal.classList.remove('flex')
   }
   
-  const API_BASE_URL = 'http://localhost:3333/api'
+  const API_BASE_URL = 'http://192.168.6.93:3333/api'
   
   async function getProducts() {
     try {
@@ -54,7 +54,8 @@ async function openModal(id) {
           <td>${product.price}</td>
           <td>${product.category}</td>
           <td>
-            <button onclick="openModal(${product.id})">Editar</button>
+            <button onclick="openModal(${product.id})" class="px-4 h-10 bg-green-500 text-white rounded-md mt-2">Editar</button>
+            <button onclick=" deleteProduct(${product.id})" class="px-4 h-10 bg-red-500 text-white rounded-md mt-2">Deletar</button>
           </td>
         </tr>
       ` 
@@ -122,10 +123,29 @@ async function openModal(id) {
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(product)
+        body: JSON.stringify(product),
+        
       })
+      await getProducts()
     } catch (error) {
       console.error(error)
+    }
+  }
+
+
+  async function deleteProduct(id) {
+    try {
+      await fetch(API_BASE_URL + '/products/' + id, {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+    
+      })
+      await getProducts()
+    } catch (error) {
+      console.error(error);
+      
     }
   }
   
