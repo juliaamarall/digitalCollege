@@ -1,0 +1,304 @@
+{
+    "products": [
+      {
+        "id": 677,
+        "name": "Smartphone X1",
+        "category": "Tecnologia",
+        "price": 1999.99
+      },
+      {
+        "id": 678,
+        "name": "Notebook Pro",
+        "category": "Tecnologia",
+        "price": 4999.99
+      },
+      {
+        "id": 679,
+        "name": "Fone de Ouvido Wireless",
+        "category": "Tecnologia",
+        "price": 349.99
+      },
+      {
+        "id": 680,
+        "name": "Monitor 4K",
+        "category": "Tecnologia",
+        "price": 1299.99
+      },
+      {
+        "id": 681,
+        "name": "Teclado Mecânico",
+        "category": "Tecnologia",
+        "price": 599.99
+      },
+      {
+        "id": 682,
+        "name": "Mouse Gamer",
+        "category": "Tecnologia",
+        "price": 199.99
+      },
+      {
+        "id": 683,
+        "name": "Tablet 10\"",
+        "category": "Tecnologia",
+        "price": 1599.99
+      },
+      {
+        "id": 684,
+        "name": "Power Bank 20.000mAh",
+        "category": "Tecnologia",
+        "price": 129.99
+      },
+      {
+        "id": 685,
+        "name": "Câmera de Segurança",
+        "category": "Tecnologia",
+        "price": 299.99
+      },
+      {
+        "id": 686,
+        "name": "Impressora Multifuncional",
+        "category": "Tecnologia",
+        "price": 799.99
+      },
+      {
+        "id": 687,
+        "name": "Relógio Fitness",
+        "category": "Saúde",
+        "price": 299.99
+      },
+      {
+        "id": 688,
+        "name": "Cadeira Ergonômica",
+        "category": "Saúde",
+        "price": 899.99
+      },
+      {
+        "id": 689,
+        "name": "Oxímetro de Dedo",
+        "category": "Saúde",
+        "price": 89.99
+      },
+      {
+        "id": 690,
+        "name": "Esteira Eletrônica",
+        "category": "Saúde",
+        "price": 2999.99
+      },
+      {
+        "id": 691,
+        "name": "Balança Digital",
+        "category": "Saúde",
+        "price": 149.99
+      },
+      {
+        "id": 692,
+        "name": "Massageador Portátil",
+        "category": "Saúde",
+        "price": 199.99
+      },
+      {
+        "id": 693,
+        "name": "Faixa Postural",
+        "category": "Saúde",
+        "price": 99.99
+      },
+      {
+        "id": 694,
+        "name": "Kit de Pesos",
+        "category": "Saúde",
+        "price": 349.99
+      },
+      {
+        "id": 695,
+        "name": "Almofada Ortopédica",
+        "category": "Saúde",
+        "price": 59.99
+      },
+      {
+        "id": 696,
+        "name": "Colchonete de Yoga",
+        "category": "Saúde",
+        "price": 89.99
+      },
+      {
+        "id": 697,
+        "name": "Quadro Abstrato",
+        "category": "Arte",
+        "price": 1500
+      },
+      {
+        "id": 698,
+        "name": "Kit de Pintura",
+        "category": "Arte",
+        "price": 120
+      },
+      {
+        "id": 699,
+        "name": "Livro de Arte Moderna",
+        "category": "Arte",
+        "price": 89.99
+      },
+      {
+        "id": 700,
+        "name": "Cavalete de Pintura",
+        "category": "Arte",
+        "price": 259.99
+      },
+      {
+        "id": 701,
+        "name": "Lápis de Cor Profissional",
+        "category": "Arte",
+        "price": 299.99
+      },
+      {
+        "id": 702,
+        "name": "Papel para Aquarela",
+        "category": "Arte",
+        "price": 79.99
+      },
+      {
+        "id": 703,
+        "name": "Tinta a Óleo",
+        "category": "Arte",
+        "price": 149.99
+      },
+      {
+        "id": 704,
+        "name": "Escultura de Madeira",
+        "category": "Arte",
+        "price": 450
+      },
+      {
+        "id": 705,
+        "name": "Pincéis Artísticos",
+        "category": "Arte",
+        "price": 119.99
+      },
+      {
+        "id": 706,
+        "name": "Moldura Decorativa",
+        "category": "Arte",
+        "price": 89.99
+      },
+      {
+        "id": 707,
+        "name": "Panela Elétrica",
+        "category": "Gastronomia",
+        "price": 249.99
+      },
+      {
+        "id": 708,
+        "name": "Jogo de Facas Premium",
+        "category": "Gastronomia",
+        "price": 399.99
+      },
+      {
+        "id": 709,
+        "name": "Cafeteira Elétrica",
+        "category": "Gastronomia",
+        "price": 299.99
+      },
+      {
+        "id": 710,
+        "name": "Air Fryer",
+        "category": "Gastronomia",
+        "price": 599.99
+      },
+      {
+        "id": 711,
+        "name": "Batedeira Planetária",
+        "category": "Gastronomia",
+        "price": 799.99
+      },
+      {
+        "id": 712,
+        "name": "Jogo de Panelas Antiaderentes",
+        "category": "Gastronomia",
+        "price": 499.99
+      },
+      {
+        "id": 713,
+        "name": "Moedor de Café",
+        "category": "Gastronomia",
+        "price": 89.99
+      },
+      {
+        "id": 714,
+        "name": "Liquidificador Turbo",
+        "category": "Gastronomia",
+        "price": 329.99
+      },
+      {
+        "id": 715,
+        "name": "Tábua de Corte de Madeira",
+        "category": "Gastronomia",
+        "price": 119.99
+      },
+      {
+        "id": 716,
+        "name": "Kit de Utensílios de Cozinha",
+        "category": "Gastronomia",
+        "price": 149.99
+      },
+      {
+        "id": 717,
+        "name": "Bola Oficial de Futebol",
+        "category": "Esporte",
+        "price": 89.99
+      },
+      {
+        "id": 718,
+        "name": "Tênis de Corrida",
+        "category": "Esporte",
+        "price": 499.99
+      },
+      {
+        "id": 719,
+        "name": "Roupas de Academia",
+        "category": "Esporte",
+        "price": 199.99
+      },
+      {
+        "id": 720,
+        "name": "Kit de Halteres",
+        "category": "Esporte",
+        "price": 399.99
+      },
+      {
+        "id": 721,
+        "name": "Mochila para Hiking",
+        "category": "Esporte",
+        "price": 299.99
+      },
+      {
+        "id": 722,
+        "name": "Raquete de Tênis",
+        "category": "Esporte",
+        "price": 799.99
+      },
+      {
+        "id": 723,
+        "name": "Capacete de Ciclismo",
+        "category": "Esporte",
+        "price": 249.99
+      },
+      {
+        "id": 724,
+        "name": "Corda de Pular",
+        "category": "Esporte",
+        "price": 49.99
+      },
+      {
+        "id": 725,
+        "name": "Barraca para Camping",
+        "category": "Esporte",
+        "price": 999.99
+      },
+      {
+        "id": 726,
+        "name": "Lanterna de Cabeça",
+        "category": "Esporte",
+        "price": 89.99
+      }
+    ]
+  }
